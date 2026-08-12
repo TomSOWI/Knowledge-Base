@@ -1,6 +1,6 @@
 from notion_extractor import NotionExtractor
 from notion_parser import NotionParser
-from chunker import NotionChunker
+from notion_chunker import NotionChunker
 import os
 from dotenv import load_dotenv
 

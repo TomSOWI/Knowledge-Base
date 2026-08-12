@@ -1,6 +1,9 @@
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from typing import List, Dict
-from langchain.schema import Document
+from langchain_core.documents import Document
+#from langchain.schema import Document
+#from langchain.docstore.document import Document
+
 
 class NotionChunker:
     def __init__(
